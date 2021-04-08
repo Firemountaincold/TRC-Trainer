@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>TRC_Trainer</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>Networked Pueblo.ico</ApplicationIcon>
+    <Platforms>AnyCPU;x64</Platforms>
+    <Version>1.0.4.8</Version>
+    <Authors>LLZ</Authors>
+    <Company>LLZ@2021</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DlibDotNet" Version="19.21.0.20210302" />
+  </ItemGroup>
+
+</Project>
